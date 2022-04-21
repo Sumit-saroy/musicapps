@@ -101,6 +101,11 @@ i {
     border: none;
     background: none;
 }
+.foot{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
 .col-md-4 {
     margin-top: 2vmin;
@@ -469,4 +474,10 @@ audio:nth-child(6) {
 
         background-color: cornflowerblue;
     }
+}
+body,html{
+    height: 100%;
+}
+#page-content{
+    flex: 1 0 auto;
 }
