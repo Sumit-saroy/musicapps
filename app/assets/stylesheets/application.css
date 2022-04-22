@@ -102,9 +102,12 @@ i {
     background: none;
 }
 .foot{
-    position: fixed;
+    position: absolute;
+    left: 0;
     bottom: 0;
+    top:auto;
     width: 100%;
+    /* height: 20px; */
 }
 
 .col-md-4 {
@@ -475,9 +478,10 @@ audio:nth-child(6) {
         background-color: cornflowerblue;
     }
 }
-body,html{
-    height: 100%;
-}
-#page-content{
-    flex: 1 0 auto;
-}
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+  }
